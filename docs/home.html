@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הטעם שנשאר - דף הבית</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+      <div class="header-section logo">
+        <a href="home.html"><img src="images/logo.png" alt="The Taste That Remains Logo" id="logo"></a>
+      </div>
+      <div class="header-section nav">
+        <button id="menu-toggle" aria-label="menu">☰</button>      
+        <nav>
+          <ul id="nav-list">
+            <li class="active"><a href="home.html">בית</a></li>
+            <li><a href="recipe.html">מתכונים</a></li>
+            <li><a href="add-recipe.html">הוסף מתכון</a></li>
+            <li><a href="contact.html">צור קשר</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-section search">
+        <form class="search-form" action="recipe.html" method="get">
+        <input type="text" name="q" style="font-family: 'Fredoka', sans-serif;" placeholder="חפש מתכון..." />
+            <button type="submit">🔍</button>
+        </form> 
+      </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>כל מתכון הוא גם סיפור. בכל מקום, בכל זמן.</h1>
+            <p>בואו לבשל מנה – ולהגיש זיכרון לשולחן שלכם.</br>
+              כי הטעם שנשאר הוא הרבה יותר מאוכל – הוא דרך לזכור, לשתף ולהחיות את הסיפורים שחרוטים לנו בלב.
+            </p>
+            <div class="hero-buttons">
+              <a href="add-recipe.html" class="hero-btn">הוסיפו מתכון</a>
+              <a href="recipe.html" class="hero-btn secondary">גלו מתכונים</a>
+            </div>
+        </section>
+    
+        <!-- Latest Uploads Section -->
+        <section class="latest-uploads">
+            <h1 style="font-size: 2.5em;">מתכונים חדשים</h1>
+            <div class="uploads-grid">
+              
+              <div class="recipe-card">
+                <span class="tag">בשרי</span>
+                <img src="images/mahshi.jpg" alt="מחשי" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/karin-jorno.jpg" alt="קארין ג'ורנו" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">קארין ג'ורנו ז״ל</p>
+                    <h3 class="recipe-name">קציצות מחשי וקוסקוס</h3>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="recipe-card">
+                <span class="tag">קינוח</span>
+                <img src="images/cookies.jpg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/DekelSuissa.png" alt="Dekel Suissa" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">דקל סויסה ז״ל</p>
+                    <h3 class="recipe-name">עוגיות שוקולד צ'יפס</h3>
+                  </div>
+                </div>
+              </div>
+          
+
+              <div class="recipe-card">
+                <span class="tag">קינוח</span>
+                <img src="images/carrot-cake.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/MayaFuder.png" alt="Maya Fuder" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">מאיה פודר ז״ל</p>
+                    <h3 class="recipe-name">עוגת גזר</h3>
+                  </div>
+                </div>
+              </div>
+          
+
+              <div class="recipe-card">
+                <span class="tag">קינוח</span>
+                <img src="images/cheescake.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/EliyahuMeirOhana.png" alt="Eliyahu Meir Ohana" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">אליהו מאיר אוחנה ז״ל</p>
+                    <h3 class="recipe-name">עוגת גבינה עם פירות</h3>
+                  </div>
+                </div>
+              </div>
+          
+
+              <div class="recipe-card">
+                <span class="tag">פרווה</span>
+                <img src="images/ahsan-dish.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/AhsanDaksa.jpeg" alt="Adi Danan" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">אחסן דקסה ז״ל</p>
+                    <h3 class="recipe-name">עילת של אחסן</h3>
+                  </div>
+                </div>
+              </div>
+          
+
+              <div class="recipe-card">
+                <span class="tag">חלבי</span>
+                <img src="images/sandwich.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/RoniEshel.jpeg" alt="Roni Eshel" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">רוני אשל ז״ל</p>
+                    <h3 class="recipe-name">כריך רוני</h3>
+                  </div>
+                </div>
+              </div>
+          
+              
+              <div class="recipe-card">
+                <span class="tag">קינוח</span>
+                <img src="images/lemon-pie.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/EyalMeborachTuito.png" alt="Eyal Meborach Tuito" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">אייל מבורך טויטו ז״ל</p>
+                    <h3 class="recipe-name">פאי לימון</h3>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="recipe-card">
+                <span class="tag">חלבי</span>
+                <img src="images/pizza.jpeg" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/ItayGlisko.jpeg" alt="Itay Glisko" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">איתי גליסקו ז״ל</p>
+                    <h3 class="recipe-name">פיצה איטלקית</h3>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="recipe-card">
+                <span class="tag">פרווה</span>
+                <img src="images/shakshuka.avif" alt="dish" class="dish-img">
+                <div class="recipe-info">
+                  <img src="images/AviadEdri.avif" alt="Aviad Edri" class="person-photo">
+                  <div class="text-area">
+                    <p class="person-name">אביעד אדרי ז״ל</p>
+                    <h3 class="recipe-name">שקשוקה של אביעד</h3>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </section> 
+  
+          
+          
+        <!-- Call-To-Action Section -->
+        <section class="call-to-action-grid">
+          <div class="cta-tile" style="background-image: url('images/background1.jpg');" onclick="window.location.href='recipe.html'">
+            <div class="cta-overlay">גלו מתכונים נוספים</div>
+          </div>
+          <div class="cta-tile" style="background-image: url('images/background2.jpg');" onclick="window.location.href='recipe.html'">
+            <div class="cta-overlay">זיכרו את הנופלים</div>
+          </div>
+          <div class="cta-tile" style="background-image: url('images/bg5.jpg');" onclick="window.location.href='add-recipe.html'">
+            <div class="cta-overlay">הוסיפו מתכון</div>
+          </div>
+          <div class="cta-tile" style="background-image: url('images/bg6.jpg');" onclick="window.location.href='home.html'">
+            <div class="cta-overlay">הצטרפו כעסקים</div>
+          </div>
+        </section>
+    
+        <!-- About Us Section -->
+        <section class="about-us"  style="background-image: url('images/about.jpg');">
+          <h2 style="margin-top: 80px;">אודות הטעם שנשאר</h2>
+            <p>
+              הטעם שנשאר הוא מיזם קהילתי המשלב מתכונים אישיים עם סיפורי הנצחה, המבקש לשמר את זכרם של חללי מערכות ישראל ונפגעי פעולות האיבה בדרך הכי אנושית שיש - דרך האוכל.
+              לצד כל מתכון מסתתר אדם ולצד כל סיפור ישנו ניחוח של בית, של אהבה וגעגוע. </br>
+              אנו מאמינים שדרך החיבור בין אוכל לזיכרון, ניתן לגעת בלבבות, לספר חיים שלמים ולהפוך זיכרון לחוויה שנשארת.
+
+            </p>
+        </section>
+    
+    </main>
+    
+    
+    <div class="footer-wrapper">
+      <footer>
+        <div class="social-media">
+          <a href="https://www.facebook.com/..." target="_blank" rel="noopener noreferrer"><img src="images/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/..." target="_blank" rel="noopener noreferrer"> <img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">צור קשר</a> |
+          <a href="#">תנאי שימוש</a> |
+          <a href="#">מדיניות פרטיות</a>
+        </div>
+        <p>© 2025 הטעם שנשאר. כל הזכויות שמורות.</p>
+      </footer>
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
